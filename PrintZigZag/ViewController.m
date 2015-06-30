@@ -17,6 +17,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    int x = 0;
+    int y = 0;
+    int loop = 4;
+    for (y = 0; y <= 4; y++) {
+        for (x = 4; x <= 8*loop; x++) {
+            
+            if (x%8==y || x%8==(8-y)) {
+                printf("+");
+            }
+            else {
+                printf(" ");
+            }
+            
+        }
+        
+        printf("\n");
+        
+        
+    }
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
