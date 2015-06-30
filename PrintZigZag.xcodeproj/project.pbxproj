@@ -14,6 +14,7 @@
 		D82273871B4244BC002BB2AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82273861B4244BC002BB2AE /* Images.xcassets */; };
 		D822738A1B4244BC002BB2AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82273881B4244BC002BB2AE /* LaunchScreen.xib */; };
 		D82273961B4244BD002BB2AE /* PrintZigZagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82273951B4244BD002BB2AE /* PrintZigZagTests.m */; };
+		D8FB04BB1B428E7D00318534 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D8FB04BA1B428E7D00318534 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D822738F1B4244BD002BB2AE /* PrintZigZagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintZigZagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82273941B4244BD002BB2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D82273951B4244BD002BB2AE /* PrintZigZagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintZigZagTests.m; sourceTree = "<group>"; };
+		D8FB04BA1B428E7D00318534 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				D82273801B4244BC002BB2AE /* ViewController.h */,
 				D82273811B4244BC002BB2AE /* ViewController.m */,
 				D82273831B4244BC002BB2AE /* Main.storyboard */,
+				D8FB04BA1B428E7D00318534 /* screenshot.png */,
 				D82273861B4244BC002BB2AE /* Images.xcassets */,
 				D82273881B4244BC002BB2AE /* LaunchScreen.xib */,
 				D82273791B4244BC002BB2AE /* Supporting Files */,
@@ -202,6 +205,7 @@
 				D82273851B4244BC002BB2AE /* Main.storyboard in Resources */,
 				D822738A1B4244BC002BB2AE /* LaunchScreen.xib in Resources */,
 				D82273871B4244BC002BB2AE /* Images.xcassets in Resources */,
+				D8FB04BB1B428E7D00318534 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +420,7 @@
 				D822739B1B4244BD002BB2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D822739C1B4244BD002BB2AE /* Build configuration list for PBXNativeTarget "PrintZigZagTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				D822739E1B4244BD002BB2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
